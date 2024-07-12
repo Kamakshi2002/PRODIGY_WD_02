@@ -1,0 +1,86 @@
+body {
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url(image\ 4.jpg) no-repeat center center fixed ;
+    background-size: cover;
+}
+.container {
+    text-align: center;
+    background: rgba(137, 0, 174, 0.352);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.stopwatch {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#display {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#startStopBtn {
+    background: fixed;
+}
+#startStopBtn:hover{
+    background:rgba(247, 0, 255, 0.829)
+}
+
+#resetBtn {
+    background: fixed;
+}
+
+#resetBtn:hover{
+    background:rgba(247, 0, 255, 0.829)
+}
+
+#lapBtn {
+    background: fixed;
+}
+#lapBtn:hover{
+    background:rgba(247, 0, 255, 0.829);
+}
+
+.laps {
+    text-align: left;
+    color: #fff;
+
+}
+
+.laps h2 {
+    margin-bottom: 10px;
+}
+
+.laps ul {
+    list-style: none;
+    padding: 0;
+}
+
+.laps ul li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
